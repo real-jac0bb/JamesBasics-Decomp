@@ -1,0 +1,386 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!94 &1
+ScriptMapper:
+  m_ObjectHideFlags: 0
+  m_Shaders:
+    m_ObjectToName:
+    - first: {fileID: 17, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/InternalErrorShader
+    - first: {fileID: 68, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/InternalClear
+    - first: {fileID: 69, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-Colored
+    - first: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+      second: GUI/Text Shader
+    - first: {fileID: 10755, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/FrameDebuggerRenderTargetDisplay
+    - first: {fileID: 19, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-StencilWrite
+    - first: {fileID: 65, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-CombineDepthNormals
+    - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/BlitCopy
+    - first: {fileID: 67, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/BlitCopyDepth
+    - first: {fileID: 107, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/BlitCopyWithDepth
+    - first: {fileID: 68, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/ConvertTexture
+    - first: {fileID: 109, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/BlitToDepth
+    - first: {fileID: 110, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/BlitToDepth_MSAA
+    - first: {fileID: 0}
+      second: Standard (Specular setup)
+    - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      second: Standard
+    - first: {fileID: 0}
+      second: Standard (Roughness setup)
+    - first: {fileID: 63, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-PrePassLighting
+    - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-ScreenSpaceShadows
+    - first: {fileID: 62, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-DepthNormalsTexture
+    - first: {fileID: 74, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-DeferredReflections
+    - first: {fileID: 69, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-DeferredShading
+    - first: {fileID: 75, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-MotionVectors
+    - first: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Diffuse Fast
+    - first: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Diffuse Detail
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped Unlit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Soft Edge Unlit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Decal
+    - first: {fileID: 102, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-Flare
+    - first: {fileID: 0}
+      second: FX/Flare
+    - first: {fileID: 0}
+      second: Skybox/Cubemap
+    - first: {fileID: 104, guid: 0000000000000000f000000000000000, type: 0}
+      second: Skybox/6 Sided
+    - first: {fileID: 105, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-Halo
+    - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+      second: Skybox/Procedural
+    - first: {fileID: 0}
+      second: Skybox/Panoramic
+    - first: {fileID: 0}
+      second: Particles/Additive
+    - first: {fileID: 0}
+      second: Particles/~Additive-Multiply
+    - first: {fileID: 0}
+      second: Particles/Additive (Soft)
+    - first: {fileID: 0}
+      second: Particles/Alpha Blended
+    - first: {fileID: 0}
+      second: Particles/Multiply
+    - first: {fileID: 0}
+      second: Particles/Multiply (Double)
+    - first: {fileID: 0}
+      second: Particles/Alpha Blended Premultiply
+    - first: {fileID: 0}
+      second: Particles/VertexLit Blended
+    - first: {fileID: 0}
+      second: Particles/Anim Alpha Blended
+    - first: {fileID: 0}
+      second: Particles/Standard Surface
+    - first: {fileID: 0}
+      second: Particles/Standard Unlit
+    - first: {fileID: 0}
+      second: Sprites/Diffuse
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/Vertexlit
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/WavingDoublePass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/BillboardWavingDoublePass
+    - first: {fileID: 0}
+      second: Nature/Terrain/Diffuse
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Diffuse-AddPass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/BillboardTree
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/CameraFacingBillboardTree
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Bumped Specular
+    - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureClip
+    - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureClipText
+    - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITexture
+    - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureBlit
+    - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUIRoundedRect
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Soft Occlusion Bark Rendertex
+    - first: {fileID: 0}
+      second: Nature/Tree Soft Occlusion Bark
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Soft Occlusion Leaves Rendertex
+    - first: {fileID: 0}
+      second: Nature/Tree Soft Occlusion Leaves
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Bark
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Leaves
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Bark Rendertex
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Rendertex
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Bark Optimized
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Optimized
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Leaves Fast
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Fast Optimized
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Albedo Rendertex
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Normal Rendertex
+    - first: {fileID: 0}
+      second: Nature/Terrain/Specular
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Specular-AddPass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Specular-Base
+    - first: {fileID: 0}
+      second: Nature/Terrain/Standard
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Standard-AddPass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Standard-Base
+    - first: {fileID: 0}
+      second: Mobile/Skybox
+    - first: {fileID: 0}
+      second: Mobile/VertexLit
+    - first: {fileID: 0}
+      second: Mobile/Diffuse
+    - first: {fileID: 0}
+      second: Mobile/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Mobile/Bumped Specular
+    - first: {fileID: 0}
+      second: Mobile/Bumped Specular (1 Directional Light)
+    - first: {fileID: 0}
+      second: Mobile/VertexLit (Only Directional Lights)
+    - first: {fileID: 0}
+      second: Mobile/Unlit (Supports Lightmap)
+    - first: {fileID: 0}
+      second: Mobile/Particles/Additive
+    - first: {fileID: 0}
+      second: Mobile/Particles/Alpha Blended
+    - first: {fileID: 0}
+      second: Mobile/Particles/VertexLit Blended
+    - first: {fileID: 0}
+      second: Mobile/Particles/Multiply
+    - first: {fileID: 0}
+      second: Unlit/Transparent
+    - first: {fileID: 0}
+      second: Unlit/Transparent Cutout
+    - first: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+      second: Unlit/Texture
+    - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+      second: Sprites/Default
+    - first: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+      second: Unlit/Color
+    - first: {fileID: 10757, guid: 0000000000000000f000000000000000, type: 0}
+      second: Sprites/Mask
+    - first: {fileID: 0}
+      second: UI/Unlit/Transparent
+    - first: {fileID: 0}
+      second: UI/Unlit/Detail
+    - first: {fileID: 0}
+      second: UI/Unlit/Text
+    - first: {fileID: 0}
+      second: UI/Unlit/Text Detail
+    - first: {fileID: 0}
+      second: UI/Lit/Transparent
+    - first: {fileID: 0}
+      second: UI/Lit/Bumped
+    - first: {fileID: 0}
+      second: UI/Lit/Detail
+    - first: {fileID: 0}
+      second: UI/Lit/Refraction
+    - first: {fileID: 0}
+      second: UI/Lit/Refraction Detail
+    - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+      second: UI/Default
+    - first: {fileID: 0}
+      second: UI/Default Font
+    - first: {fileID: 0}
+      second: UI/DefaultETC1
+    - first: {fileID: 0}
+      second: Hidden/UI/CompositeOverdraw
+    - first: {fileID: 0}
+      second: Hidden/UI/Overdraw
+    - first: {fileID: 0}
+      second: Nature/SpeedTree
+    - first: {fileID: 0}
+      second: Nature/SpeedTree Billboard
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/TextureUV
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/ShowLightMask
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/UV1sAsPositions
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/VertexColors
+    - first: {fileID: 15104, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/CubeBlur
+    - first: {fileID: 15105, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/CubeCopy
+    - first: {fileID: 15106, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/CubeBlend
+    - first: {fileID: 0}
+      second: VR/SpatialMapping/Occlusion
+    - first: {fileID: 0}
+      second: VR/SpatialMapping/Wireframe
+    - first: {fileID: 0}
+      second: Hidden/VR/BlitTexArraySlice
+    - first: {fileID: 0}
+      second: Hidden/VR/Internal-VRDistortion
+    - first: {fileID: 0}
+      second: Hidden/VR/BlitTexArraySliceToDepth
+    - first: {fileID: 0}
+      second: Hidden/VR/BlitTexArraySliceToDepth_MSAA
+    - first: {fileID: 15308, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-ODSWorldTexture
+    - first: {fileID: 15309, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-CubemapToEquirect
+    - first: {fileID: 0}
+      second: Hidden/VR/ClippingMask
+    - first: {fileID: 0}
+      second: Hidden/VR/VideoBackground
+    - first: {fileID: 0}
+      second: AR/TangoARRender
+    - first: {fileID: 16000, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/VideoDecode
+    - first: {fileID: 0}
+      second: Hidden/VideoDecodeOSX
+    - first: {fileID: 0}
+      second: Hidden/VideoDecodeAndroid
+    - first: {fileID: 17000, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Compositing
+    - first: {fileID: 4800000, guid: 5e1f8ae8de49b2647a94903c8c245af1, type: 3}
+      second: Hidden/LightweightPipeline/Blit
+    - first: {fileID: 4800000, guid: 8cf9d90ab886d2f4c9705d74dc65da4f, type: 3}
+      second: Hidden/LightweightPipeline/CopyDepth
+    - first: {fileID: 4800000, guid: 4c4bbdd6270147c4f8926b406cb74ff4, type: 3}
+      second: Hidden/LightweightPipeline/ScreenSpaceShadows
+    - first: {fileID: 4800000, guid: 9eb70be330258e34e8d256db03f809d9, type: 3}
+      second: Hidden/LightweightPipeline/Sampling
+    - first: {fileID: 4800000, guid: 617a19b22f021994aa03ea6aac3d75fe, type: 3}
+      second: TextMeshPro/Bitmap
+    - first: {fileID: 4800000, guid: 312e6ff6865b5ae489f2b91493392910, type: 3}
+      second: TextMeshPro/Mobile/Bitmap
+    - first: {fileID: 4800000, guid: c2f04ef8ba6d32744908837c8d59c245, type: 3}
+      second: TextMeshPro/Bitmap Custom Atlas
+    - first: {fileID: 4800000, guid: 66fc87efd005e1643a2bcd8c634e42dc, type: 3}
+      second: TextMeshPro/Distance Field
+    - first: {fileID: 4800000, guid: 4035efebb25bf1d4c911a737b5045554, type: 3}
+      second: TextMeshPro/Mobile/Distance Field (Surface)
+    - first: {fileID: 4800000, guid: 0747b8fbafae9ab4f8d29525495cd98d, type: 3}
+      second: LightweightPipeline/Standard (Physically Based)
+    - first: {fileID: 4800000, guid: 11b071bdfbc7494408f6131f029beb25, type: 3}
+      second: TextMeshPro/Mobile/Distance Field Overlay
+    - first: {fileID: 4800000, guid: 944960b5d6e936843b345a72793fc9f7, type: 3}
+      second: TextMeshPro/Mobile/Distance Field - Masking
+    - first: {fileID: 4800000, guid: 4fccb7d9bbd119749860eea246d9dbc8, type: 3}
+      second: TextMeshPro/Sprite
+    - first: {fileID: 4800000, guid: a701983335237294985afebe880734e9, type: 3}
+      second: TextMeshPro/Distance Field Overlay
+    - first: {fileID: 4800000, guid: cd9aa9f7767d3a4449d1d2ebe678f4c8, type: 3}
+      second: TextMeshPro/Distance Field (Surface)
+    - first: {fileID: 4800000, guid: c02f4aaf7f30a1e428491a3e1fa5565f, type: 3}
+      second: TextMeshPro/Mobile/Distance Field
+  m_PreloadShaders: 0
